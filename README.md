@@ -65,3 +65,4 @@ docker run -p 3000:3000 -v $(pwd)/data:/app/data nextjs-litehouse
 
 - `GET /api/messages` - Get all messages
 - `POST /api/messages` - Create a new message (body: `{ "text": "your message" }`)
+# nextjs-litehouse
