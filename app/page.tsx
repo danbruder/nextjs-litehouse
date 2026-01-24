@@ -53,14 +53,14 @@ export default function Home() {
   };
 
   return (
-    <main style={{ 
-      maxWidth: '800px', 
-      margin: '0 auto', 
+    <main style={{
+      maxWidth: '800px',
+      margin: '0 auto',
       padding: '2rem',
       fontFamily: 'system-ui, sans-serif'
     }}>
       <h1>Hello World - Next.js with SQLite</h1>
-      
+
       <form onSubmit={handleSubmit} style={{ marginBottom: '2rem' }}>
         <input
           type="text"
